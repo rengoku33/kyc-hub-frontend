@@ -1,54 +1,12 @@
-# React + TypeScript + Vite
+# how to run this project locally:
+1. clone this repo
+2. cd inside and npm insall
+3. npm run dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a frontend application (hardcoded JSON instead of API). I completely used AI (chatGPT 4o mini), to be honest... I am the type of guy who uses minimal AI for coding but I wanted to give vibe coding a try
 
-Currently, two official plugins are available:
+It took me a total of 2 hrs, one shot AI prompt. The vibe coding experience was actually not that great but it was effective in producing results (from generating design to coding the entire project) but after a couple of requests my free usage limit maxed so i patched things up and altered design a little bit and voila!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+is this my best work? absolutely not even near... but this is my best and fastest project in 2 hours time frame that i set for myself
+![Screenshot 2025-04-27 094406](https://github.com/user-attachments/assets/373dda94-c8e6-472e-8870-9cb78844b4e0)
+![Screenshot 2025-04-27 111126](https://github.com/user-attachments/assets/a94b8058-3cc3-4dc5-ad16-7f3b82c2c2ce)
