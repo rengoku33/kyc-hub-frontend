@@ -1,0 +1,8 @@
+.row-approved {
+    background-color: #e6ffed !important; /* subtle green */
+  }
+  
+  .row-rejected {
+    background-color: #fff1f0 !important; /* subtle red */
+  }
+  
